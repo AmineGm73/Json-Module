@@ -33,8 +33,6 @@
 
     ```python
     from json_m import json_file, Operation
-    Utilisez ce code avec précaution.
-    Perform operations on JSON files:
     ```
 
     * Perform operations on JSON files:
