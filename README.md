@@ -50,7 +50,6 @@
 
     # Remove a key-value pair
     json_file("my_data.json", Operation.REMOVE, key="age")
-    Utilisez ce code avec précaution.
     ```
 
 - ## Additional Notes
