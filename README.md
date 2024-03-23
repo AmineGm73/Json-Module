@@ -15,12 +15,13 @@
 
 - ## Installation
 * ### Clone Repository:
-    You can easily using git by the following line
+    You can easily using git by the following line or download the zip file and extract it:
 ```bash
 git clone https://github.com/AmineGm73/Json-Module.git
 ```
 
 * ### Installing the package:
+    After downloading the zip and extracting it or cloning the repository open the repository folder on the terminal or command prompt enter this line:
 
 ```bash
 pip install .
