@@ -1,9 +1,9 @@
 
-## json_m
+# Json Module
 
 **A Python module for simplifying JSON file operations**
 
-### Features
+- ## Features
 
 * Reads, writes, and modifies JSON data stored in files.
 * Supports basic operations:
@@ -13,22 +13,22 @@
     - `GET`: Retrieves the value of a specific key.
 * Automatically handles file paths for user convenience.
 
-### Installation
-- ## Clone Repository:
+- ## Installation
+    - ### Clone Repository:
     You can easily using git by the following line
 ```bash
 git clone https://github.com/AmineGm73/Json-Module.git
 ```
 
-- ## Installing the package:
+    - ### Installing the package:
 
 ```bash
 pip install .
 ```
 
-### Usage
+- ## Usage
 
-- Import the module and necessary classes:
+    - Import the module and necessary classes:
 
 ```python
 from json_m import json_file, Operation
@@ -53,12 +53,12 @@ json_file("my_data.json", Operation.REMOVE, key="age")
 Utilisez ce code avec précaution.
 ```
 
-### Additional Notes
+- ## Additional Notes
 
 The module determines the file path relative to the calling script's directory.
 Error handling is incorporated for robustness.
 Consider specifying a custom file path if needed.
 
-### License
+- ## License
 
 This module is licensed under the MIT License. See the [LICENSE](https://github.com/AmineGm73/Json-Module/blob/main/LICENSE) file for details.
