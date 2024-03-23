@@ -14,8 +14,16 @@
 * Automatically handles file paths for user convenience.
 
 ### Installation
+- ##Clone Repository:
+    You can easily using git by the following line
 ```bash
-pip install json_m
+git clone https://github.com/AmineGm73/Json-Module.git
+```
+
+- ##Installing the package:
+
+```bash
+pip install .
 ```
 
 ### Usage
