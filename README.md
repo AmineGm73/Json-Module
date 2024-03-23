@@ -53,4 +53,4 @@ Consider specifying a custom file path if needed.
 
 ### License
 
-This module is licensed under the MIT License. See the LICENSE file for details.
+This module is licensed under the MIT License. See the [LICENSE](https://github.com/AmineGm73/Json-Module/blob/main/LICENSE) file for details.
