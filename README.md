@@ -29,31 +29,31 @@ pip install .
 
 - ## Usage
 
-* Import the module and necessary classes:
+    * Import the module and necessary classes:
 
-```python
-from json_m import json_file, Operation
-Utilisez ce code avec précaution.
-Perform operations on JSON files:
-```
+    ```python
+    from json_m import json_file, Operation
+    Utilisez ce code avec précaution.
+    Perform operations on JSON files:
+    ```
 
-* Perform operations on JSON files:
+    * Perform operations on JSON files:
 
-```python
-# Get a value
-value = json_file("my_data.json", Operation.GET, key="name")
+    ```python
+    # Get a value
+    value = json_file("my_data.json", Operation.GET, key="name")
 
 
-# Add a new key-value pair
-json_file("my_data.json", Operation.ADD, key="age", new_value=30)
+    # Add a new key-value pair
+    json_file("my_data.json", Operation.ADD, key="age", new_value=30)
 
-# Change a value
-json_file("my_data.json", Operation.CHANGE, key="name", new_value="Alice")
+    # Change a value
+    json_file("my_data.json", Operation.CHANGE, key="name", new_value="Alice")
 
-# Remove a key-value pair
-json_file("my_data.json", Operation.REMOVE, key="age")
-Utilisez ce code avec précaution.
-```
+    # Remove a key-value pair
+    json_file("my_data.json", Operation.REMOVE, key="age")
+    Utilisez ce code avec précaution.
+    ```
 
 - ## Additional Notes
 
