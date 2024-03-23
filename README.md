@@ -3,24 +3,24 @@
 
 **A Python module for simplifying JSON file operations**
 
-**### Features**
+### Features
 
 * Reads, writes, and modifies JSON data stored in files.
 * Supports basic operations:
-    * `ADD`: Adds a new key-value pair or appends a value to a list.
-    * `CHANGE`: Updates the value of an existing key or changes all values in a dictionary.
-    * `REMOVE`: Deletes a key-value pair or removes items from a list.
-    * `GET`: Retrieves the value of a specific key.
+    - `ADD`: Adds a new key-value pair or appends a value to a list.
+    - `CHANGE`: Updates the value of an existing key or changes all values in a dictionary.
+    - `REMOVE`: Deletes a key-value pair or removes items from a list.
+    - `GET`: Retrieves the value of a specific key.
 * Automatically handles file paths for user convenience.
 
-**### Installation**
+### Installation
 ```bash
 pip install json_m
 ```
 
 ### Usage
 
-Import the module and necessary classes:
+- Import the module and necessary classes:
 
 ```python
 from json_m import json_file, Operation
@@ -28,6 +28,7 @@ Utilisez ce code avec précaution.
 Perform operations on JSON files:
 ```
 
+- Perform operations on JSON files:
 ```python
 # Get a value
 value = json_file("my_data.json", Operation.GET, key="name")
