@@ -1,7 +1,0 @@
-LICENSE
-README.md
-setup.py
-json_m.egg-info/PKG-INFO
-json_m.egg-info/SOURCES.txt
-json_m.egg-info/dependency_links.txt
-json_m.egg-info/top_level.txt
